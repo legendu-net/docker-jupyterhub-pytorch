@@ -1,6 +1,6 @@
 # dclong/jupyterhub-pytorch [@DockerHub](https://hub.docker.com/r/dclong/jupyterhub-pytorch/) | [@GitHub](https://github.com/dclong/docker-jupyterhub-pytorch)
 
-GPU-enabled PyTorch in Docker.
+JupyterHub with PyTorch (GPU/CUDA enabled) in Docker.
 
 ## Prerequisite
 You need to [install Docker](http://www.legendu.net/en/blog/docker-installation/) before you use this Docker image.
