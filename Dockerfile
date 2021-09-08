@@ -4,4 +4,4 @@ FROM dclong/jupyterhub-cuda_b
 
 RUN pip3 install loguru \
     && xinstall pytorch -ic --cuda 11.1 \
-    && pip3 cache purge
+    && /scripts/sys/purge_cache.sh
