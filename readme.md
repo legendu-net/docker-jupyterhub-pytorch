@@ -47,11 +47,6 @@ docker run -d --init \
     -v "$(dirname $HOME)":/home_host \
     dclong/jupyterhub-pytorch /scripts/sys/init.sh
 ```
-## Useful Historical Tags
-- dclong/jupyterhub-pytorch:103116
-> cuda-compat-11-1                  455.32.00-1                       amd64        CUDA Compatibility Platform  
-> cuda-cudart-11-1                  11.1.74-1                         amd64        CUDA Runtime native Libraries  
-> libnvrtc10.1:amd64                10.1.243-3                        amd64        CUDA Runtime Compilation (NVIDIA NVRTC Library)
 
 ## [Get the Token for Login](http://www.legendu.net/en/blog/my-docker-images/#get-information-of-running-jupyterlab-servers) 
 
