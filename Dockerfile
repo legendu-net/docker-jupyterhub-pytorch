@@ -1,6 +1,6 @@
 # NAME: dclong/jupyterhub-pytorch
 FROM dclong/jupyterhub-cuda
-# GIT: https://github.com/dclong/docker-jupyterhub-cuda.git
+# GIT: https://github.com/legendu-net/docker-jupyterhub-cuda.git
 
 RUN pip3 install loguru pyarrow pandas \
     && xinstall pytorch -ic --cuda 11.1 \
